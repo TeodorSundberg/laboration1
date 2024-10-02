@@ -1,10 +1,12 @@
 # laboration1
 Black jack game
 
-call the code in your command prompt or through pandas
-blackjack-teo.py
+call the code in your python editor to run it
 
-the game will ask for input according to the original instruction
+the game will ask for input according to the original instruction, you can either hit or stand.
+if you miss spell the program will keep asking until you say hit or stand
+
+
 Skapa ett program som simulerar ett blackjack-spel mellan en spelare och en dator.
 - Spelet spelas med en vanlig kortlek som blandas innan varje runda.
 - Varje spelare får två kort i början av spelet. Datorn visar bara upp ett av sina kort.
