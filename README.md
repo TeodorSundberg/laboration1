@@ -1,7 +1,7 @@
 # laboration1
 Black jack game
 
-call the code in your command prompt or through pandas
+call the code in your command prompt or through python editor
 blackjack-teo.py
 
 the game will ask for input according to the original instruction
