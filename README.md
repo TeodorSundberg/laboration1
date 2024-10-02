@@ -4,7 +4,7 @@ Black jack game
 call the code in your python editor to run it
 
 the game will ask for input according to the original instruction, you can either hit or stand.
-if you miss spell the program will keep asking until you say hit or stand
+if you missspell the program will keep asking until you say "hit" or "stand"
 
 
 Skapa ett program som simulerar ett blackjack-spel mellan en spelare och en dator.
