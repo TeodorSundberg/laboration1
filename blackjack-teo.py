@@ -83,7 +83,7 @@ while i == 1:
         string1 = string1.lower()
     if string1 == "hit":
         player_hand = player_hand + [deck[j]]
-        print(f"you have  {sum(player_hand)}")
+        print(f"You get 1 more card and now you have  {sum(player_hand)}")
         j = j + 1    
     elif  string1 == "stand":
         print(f" You choose to stay at {sum(player_hand)} ")
@@ -103,9 +103,9 @@ while i == 1:
             try:
                 position = dealer_hand.index(11)  # Get the index of the first occurrence of 11
                 dealer_hand[position] -= 10 
-                print(f"The dealer has {sum(dealer_hand)} ")
+                print(f"The dealer has 1 more card and now has {sum(dealer_hand)} ")
             except ValueError:
-                print(f"The dealer has {sum(dealer_hand)} ")
+                print(f"The dealer has 1 more card and now has  {sum(dealer_hand)} ")
             j = j + 1
         if sum(dealer_hand) >= 17 and sum(dealer_hand) < sum(player_hand):
             print(f"The dealer lost and had {sum(dealer_hand)} compared to your winning {sum(player_hand)}")
