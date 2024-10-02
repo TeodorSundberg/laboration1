@@ -1,8 +1,7 @@
 # laboration1
 Black jack game
 
-call the code in your command prompt or through python editor to run it
-blackjack-teo.py
+call the code in your python editor to run it
 
 the game will ask for input according to the original instruction, you can either hit or stand.
 if you miss spell the program will keep asking until you say hit or stand
